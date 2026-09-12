@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset
+Dataset/
+
+# Personal/custom test images
+my_images/
+
+# Ultralytics generated runs
+runs/
+
+# Cache files
+*.cache
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Model weights
+*.pt
+
+# Keep handoff weights
+!weights/
+!weights/*.pt
+
+# Web app runtime data
+webapp/uploads/
+webapp/outputs/
+webapp/data/
